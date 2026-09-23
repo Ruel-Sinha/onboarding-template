@@ -19,8 +19,6 @@ public:
   Grid(std::size_t rows, std::size_t cols) :
         rows_(rows),
         cols_(cols),
-        innerRows(rows-1),
-        innerCols(cols-1),
         data_(std::make_unique<double[]>(rows * cols)) {}
   
   std::size_t num_rows() const {
