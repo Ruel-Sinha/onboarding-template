@@ -12,8 +12,6 @@ class Grid {
 private:
   std::size_t rows_;
   std::size_t cols_;
-  std::size_t innerRows;
-  std::size_t innerCols;
 
   std::unique_ptr<double[]> data_;
 
