@@ -12,7 +12,6 @@ class Grid {
 private:
   std::size_t rows_;
   std::size_t cols_;
-
   std::unique_ptr<double[]> data_;
 
 public:
